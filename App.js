@@ -55,6 +55,9 @@ export default function App() {
           </View>
         ))}
       </View>
+      <View style={styles.footer}>
+        <Text style={styles.footerText}>Calc by Roshan Wadhai</Text>
+      </View>
     </View>
   );
 }
@@ -104,6 +107,15 @@ const styles = StyleSheet.create({
     color: "#fff",
   },
   equalsButton: {
-    backgroundColor: "#f57c00",
+    backgroundColor: "#28a745", 
+  },
+  footer: {
+    backgroundColor: "#222",
+    padding: 10,
+    alignItems: "center",
+  },
+  footerText: {
+    fontSize: 14,
+    color: "#fff",
   },
 });
